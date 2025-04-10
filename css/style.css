@@ -1,0 +1,57 @@
+.card{
+    margin: 20px;
+    width: 400px;
+    
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #cccc;
+    font-family: "Lato", sans-serif;
+    
+}
+
+body{
+    background-color: rgb(0, 44, 124);
+}
+
+.tarjeta{
+    
+    display: flex;
+    
+    }
+
+.card-content{
+ padding: 15px;
+ }
+
+.card img{
+width: 100%;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+nav img{
+    width: 100px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+nav{
+    background-color: aqua;
+    border-radius: 10px;
+}
