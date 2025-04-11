@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(0, 44, 124);
+    background-color: rgb(23, 74, 168);
 }
 
 .tarjeta{
@@ -49,9 +49,66 @@ nav img{
 nav a{
     text-decoration: none;
     color:black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 nav{
     background-color: aqua;
     border-radius: 10px;
+}
+
+footer{
+background-color: rgb(53, 238, 238);
+padding: 10px;
+ border-radius: 10px;
+ text-align: center;
+ font-family: "PT Sans", sans-serif;
+font-weight: 400;
+ font-style: italic;
+}
+
+.card:hover{
+background-color: aquamarine;
+transform: scale(1.02); 
+    }
+.texto{
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: azure;
+    }
+
+
+.conteiner{
+display: flex; 
+justify-content: space-evenly; 
+align-items: center;
+width: 100%; 
+height: 200px;
+    }
+    
+.images{
+ display: flex; 
+justify-content: space-around;
+ align-items: center;
+}
+    
+.images img{
+width: 200px; 
+height: 200px; 
+object-fit: contain; 
+}
+    
+.text{
+ display: flex; 
+ flex-direction: column;
+justify-content: space-around; 
+ align-items: flex-start; 
+    }
+
+.conteiner{
+    margin: 30px;
+    padding: 15px;
 }
